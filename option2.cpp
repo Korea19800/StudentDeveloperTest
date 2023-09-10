@@ -13,8 +13,7 @@ string reverse(string s){
 int largest(int a, int b, int c){
     // you could simply write the below code
     // return max({a,b,c}); 
-    int big = a;
-    big = a > b ? a : b;
+    int big = a > b ? a : b;
     big = big > c ? big : c;
     return big;
 }
